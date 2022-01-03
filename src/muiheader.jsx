@@ -11,6 +11,7 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
+import './App.css'
 
 const pages = ['Home', 'About', 'Faqs'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -35,7 +36,7 @@ const ResponsiveAppBar = () => {
     };
 
     return (
-        <AppBar position="static">
+        <AppBar position="static"  >
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <Typography
@@ -137,4 +138,5 @@ const ResponsiveAppBar = () => {
         </AppBar>
     );
 };
+
 export default ResponsiveAppBar;
