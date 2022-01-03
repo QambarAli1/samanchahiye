@@ -21,11 +21,7 @@ nav.header-nav ul.header-ul-links li a{
 nav.header-nav ul.header-ul-links{
   text-align: center;
   margin-right: 20px;
-  /* float: right; */
 }
-
-
-
 .welcome{
   color: green;
 }
