@@ -11,7 +11,7 @@ function Home() {
         </Col>
       </Row>
       <Row>
-        <Col>
+        <Col className='wel-txt'>
           <h2 className='welcome'>Welcome to SamanChahiye.pk</h2>
           <h3>Delievering qulality products all over Pakistan</h3>
           <p>Free Delivery scroos Karachi</p>
