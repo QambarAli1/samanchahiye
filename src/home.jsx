@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import img1 from './ecom.png';
 import img2 from './online_shopping.jpeg';
 import './App.css'
+import Benefits from './benefits';
 
 function Home() {
   return (
@@ -27,6 +28,7 @@ function Home() {
         <h3>Delievering qulality products all over Pakistan</h3>
         <p>Free Delivery scroos Karachi</p>
       </div>
+      <Benefits heading="Free Delivery" para="Across Karachi" />
     </div>
 
   );
