@@ -39,3 +39,28 @@ nav.header-nav ul.header-ul-links{
   max-height: 500px;
   object-fit: cover;
 }
+
+.benefits-component{
+  background-color: #002c3e;
+  max-width: 300px;
+  color: #fff;
+  min-height: 150px;
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.benefits-maindiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.benicons svg{
+  font-size: 50px;
+}
+h1.whyshopwithus{
+  text-align: center;
+  text-transform: capitalize;
+  color: #0c0c0c;
+}
