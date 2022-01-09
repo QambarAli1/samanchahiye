@@ -7,7 +7,7 @@ import Faqs from "./faqs";
 import './App.css'
 function Header() {
   return (
-    <div>
+    <div className="header-bg">
       <BrowserRouter>
         <nav className="header-nav">
           <ul className="header-logo">
