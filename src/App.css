@@ -63,16 +63,47 @@ h1.whyshopwithus{
   text-align: center;
   text-transform: capitalize;
   color: #0c0c0c;
+  margin: 50px 0px 20px;
 }
 
 .benefits-component:hover{
   background-color: #000000;
   cursor: pointer;
-  /* padding: 30px; */
-  /* transition: all 1s ease; */
 }
 .benefits-component:hover h2{
   color: red;
   letter-spacing: 2px;
   transition: all 1s ease;
+}
+.product-component{
+  max-width: 300px;
+  box-shadow: 0px 0px 2px 2px rgb(163, 150, 150); /*any color you want*/
+  border-radius: 10px;
+  margin: 10px;
+
+}
+.product-component img{
+  max-width: 90%;
+  min-height: 300px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 5px;
+}
+.product-component p{
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}
+.products-maindiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* .carousel{
+  max-height: 200px;
+} */
+/* class="carousel slide carousel-fade" */
+.carousel img{
+  max-height: 500px;
 }
