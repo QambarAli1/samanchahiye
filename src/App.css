@@ -64,3 +64,15 @@ h1.whyshopwithus{
   text-transform: capitalize;
   color: #0c0c0c;
 }
+
+.benefits-component:hover{
+  background-color: #000000;
+  cursor: pointer;
+  /* padding: 30px; */
+  /* transition: all 1s ease; */
+}
+.benefits-component:hover h2{
+  color: red;
+  letter-spacing: 2px;
+  transition: all 1s ease;
+}
