@@ -1,3 +1,4 @@
+import { Container, Row, Col } from 'react-bootstrap';
 import './App.css'
 function Footer() {
     return (
@@ -25,7 +26,6 @@ function Footer() {
                 </Row>
             </Container>
         </>
-
     );
 }
 export default Footer;

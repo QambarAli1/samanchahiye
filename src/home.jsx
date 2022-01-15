@@ -13,6 +13,7 @@ import LocalShippingIcon from '@mui/icons-material/LocalShipping';
 import VerifiedIcon from '@mui/icons-material/Verified';
 import DeliveryDiningIcon from '@mui/icons-material/DeliveryDining';
 import Product from './product';
+import Footer from './footer'
 
 function Home() {
   return (
@@ -84,6 +85,7 @@ function Home() {
           <Product img_src={laptop4} price="500" />
         </div>
       </div>
+      <Footer />
 
     </>
   );
