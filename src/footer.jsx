@@ -3,7 +3,7 @@ import './App.css'
 function Footer() {
     return (
         <>
-            <Container>
+            <Container fluid className='footer-component'>
                 <Row>
                     <Col>
                         <div className="footer-nav">

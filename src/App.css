@@ -55,6 +55,7 @@ nav.header-nav ul.header-ul-links{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .benicons svg{
   font-size: 50px;
@@ -106,4 +107,22 @@ h1.whyshopwithus{
 /* class="carousel slide carousel-fade" */
 .carousel img{
   max-height: 500px;
+}
+.footer-component{
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0px;
+}
+.footer-component .footer-nav{
+  display: flex;
+  justify-content: center;
+}
+.footer-component .footer-nav ul{
+  margin: 0;
+  padding: 0;
+  /* text-align: center; */
+}
+.footer-component .footer-nav ul li{
+  margin-top: 10px;
+  list-style-type: none;
 }
